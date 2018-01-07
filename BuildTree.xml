@@ -1,0 +1,63 @@
+<buildTree>
+    <building id="Mine">
+        <name>Mine</name>
+        <buildTime>24</buildTime>
+        <workers>12</workers>
+    </building>
+    <building id="Lumbermill" level="1">
+        <name>Lumbermill</name>
+        <ingredient id="Wood">
+           <amount>40</amount>
+          </ingredient>
+        <buildTime>8</buildTime>
+        <workers>2</workers>
+    </building>
+    <building id="Lumbermill" level="2">
+        <name>Lumbermill</name>
+		<ingredient name="Wood">
+		    <amount>200</amount>
+		</ingredient>
+		<ingredient name="Iron">
+		    <amount>100</amount>
+		</ingredient>
+		<buildTime>40</buildTime>
+		<workers>6</workers>
+    </building>
+    <building name="Logging Camp">
+        <buildTime>8</buildTime>
+        <workers>8</workers>
+    </building>
+    <building name="Stonemason">
+        <ingredient name="Lumber" amount="100"/>
+        <buildTime>36</buildTime>
+        <workers>4</workers>
+    </building>
+    <building name="Blacksmith">
+        <requirement name="Mine"/>
+        <ingredient name="Lumber" amount="100"/>
+        <buildTime>36</buildTime>
+        <workers>2</workers>
+        <production>
+            <item name="Iron Armor">
+                <ingredient name="Iron" amount="10"/>
+                <buildTime>6</buildTime>
+            </item>
+            <item name="Iron Sword">
+                <ingredient name="Iron" amount="4"/>
+                <buildTime>2</buildTime>
+            </item>
+        </production>
+    </building>
+    <building name="Arcanery">
+        <requirement name="Stonemason"/>
+        <ingredient name="Stone" amount="100"/>
+        <buildTime>72</buildTime>
+        <workers>3</workers>
+        <production>
+            <item name="Enchanted Iron Armor">
+                <ingredient name="Iron Armor"/>
+                <buildTime>6</buildTime>
+            </item>
+        </production>
+    </building>
+</buildTree>

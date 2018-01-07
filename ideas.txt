@@ -1,0 +1,75 @@
+traits - affect certain activities
+    strong, agile, dexterous, intelligent, courageous, loyal, greedy, stubborn
+    Roman suffix in extreme cases e.g. Strong III
+
+skill system - affect all tasks
+    start with randomly-determined innate ability
+        affected by traits
+    improved by performing skill
+        rate affected by skill of colleagues
+        affected by traits
+    skill types
+        farming, hunting, fishing, tracking, scouting, prospecting, mining, blacksmithing, forestry, milling (wood), carpentry, thatching, tailoring, herbalism, alchemy, jewelcrafting
+        military: leather armor, mail, plate, swords, axes, spears, tactics, magic
+
+tasks
+    examples: hire blacksmith (salaried), forge armor (non-salaried), establish outpost, place bounty, build lumbermill
+    direct assignment
+        immediate response
+        able to select optimal worker
+        payment or punishment is negotiable
+            can cause discontent
+    indirect request/job posting
+        delayed response
+        job posting
+            can specify required attributes of worker
+            workers will apply
+                affected by amount of payment
+                can accept or reject based on qualifications
+        no discontent, can improve happiness
+    can affect happiness of general populace
+    
+village and economy 
+    will grow naturally based on the individual desires of the populace
+    you can influence what happens
+        REQUEST dependent on loyalty
+        COMMAND limited by gold (payment or fine) or happiness
+        see tasks for example
+    
+expansion
+    create an expedition
+        add soldiers, farmers, and other tradesmen as desired/available
+    establish an outpost
+        choose location based on distance, resources, strategic value
+        growth dependent on accessibility, happiness, surrounding populations
+        
+combat
+    players are given a list of details
+        important locations e.g. towns, forts, mountain passes, etc
+        strength and known positions of enemy forces
+            shown on interactive grid map with details in legend
+        weather conditions
+        rations remaining if attacking
+    configure their units
+        units perform differently given their composition
+            cohesion of different troops
+            some combinations grant special abilities
+    choose a plan
+        distribute units to each node
+        react to enemy advances
+        ex: hold a point with one army until another army can reinforce a base 
+    battle occurs when two armies meet 
+        troops 
+            laid out on a grid like chess
+            deal and receive a fixed amount of damage
+                based on damage type, armor, alignment, etc
+            arrange in formations to enable special abilities
+                ex: 3 footmen side-by-side take -1 damage from frontal attacks
+                ex: 3 archers in a line deal +1 damage each in that direction
+                ex: an archer behind a footman deals +1 damage in the direction of the footman
+            limit enemy movement with zones of control
+            flanked units take extra damage
+    
+OR...battle consists of a stream of units
+    amount of each unit based on various properties in empire like population, happiness, etc of each race/unit type
+    objective is to organize units in most effective arrangements,  taking into account racial affinities, 

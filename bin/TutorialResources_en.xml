@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tutorial>
+	<step key="BUILD_LUMBERMILL"> Now that the village is no longer part of the old empire, it will be impossible to rely on external shipments of goods. The village must become self-sufficient if it is to survive, and the first step to achieving that goal is to take advantage of the abundant natural resources of this land.<br/><br/>Begin by <command id="BUILD">build</command>ing a <building id="LUMBERMILL">Lumbermill</building>.</step>
+    <step key="STATUS">You may use the <command id="STATUS">status</command> command to view the progress of the construction.</step>
+    <step key="BUILD_LOGGING_CAMP">The newly completed <building id="LUMBERMILL">Lumbermill</building> will begin processing <resource id="TIMBER">timber</resource> into <resource id="LUMBER">lumber</resource> that can be used for construction of other buildings. However, the supply of <resource id="TIMBER">timber</resource> on hand is limited. A <building id="LOGGING_CAMP">Logging Camp</building> should be built so that production doesn't come to a halt.<br/><br/>Use the <command id="BUILD">build</command> command again to construct a <building id="LOGGING_CAMP">Logging Camp</building>.</step>
+</tutorial>
